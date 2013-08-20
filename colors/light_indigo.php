@@ -1,0 +1,1 @@
+<style>.section_content div.date, #header, .contact_sx #invia, #social ul li, #social ul li#social_top, #social ul li#social_bottom, #social_button, #footer{background-image: url(img/colors/light_indigo.png);}h2,h4{color: #7388A6;}h3{color: #3E4859;}</style><script type="text/javascript">dark='#3E4859';light='#A5B5CE';</script>

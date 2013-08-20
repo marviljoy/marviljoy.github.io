@@ -1,0 +1,1 @@
+<style>.section_content div.date, #header, .contact_sx #invia, #social ul li, #social ul li#social_top, #social ul li#social_bottom, #social_button, #footer{background-image: url(img/colors/lobster_red.png);}h2,h4{color: #AE2E0B;}h3{color: #5E1806;}</style><script type="text/javascript">dark='#5E1806';light='#D4410E';</script>

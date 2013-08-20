@@ -1,0 +1,425 @@
+a {
+	text-decoration: none;
+}
+
+#content {
+	background: url(img/shadow.png) repeat-y 43px 0;
+	position: relative;
+}
+
+body {
+	background: #dbdbdb url(img/bg.jpg) repeat fixed center 0;
+}
+
+
+/* @group general */
+
+.section {
+	background: #f3f3f3 url(img/curriculum_bg.png) repeat-x 0 bottom;
+	border-top: 1px solid #fffeff;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+
+
+.section_title h2 {
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+.section_list {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.section_list li {
+    margin-top: 5px;
+	margin-left: 80px;
+	width: 610px;
+}
+
+li.section_content {
+	
+	position: relative;
+}
+
+/* @group date */
+
+.section_content div.date {
+	width: 120px;
+	height: 50px;
+	display: block;
+	float: left;
+	position: absolute;
+	right: -104px;
+	background: url(img/graphic.png) 245px 135px;
+	top: -56px;
+}
+
+
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group font */
+
+
+h1,h2,h3,h4,h5,h6,p, span {
+	letter-spacing: -1px;
+}
+
+h1 {
+	color: #1B1B1B;
+	line-height: 70px;
+	font-size: 90px;
+	letter-spacing: -5px;
+	font-style: italic;
+}
+
+h2 {
+	color: #1B1B1B;
+	line-height: 35px;
+	font-size: 35px;
+}
+
+h3 {
+	color: #A4A6A6;
+	line-height: 31px;
+	font-size: 31px;
+	letter-spacing: -2px;
+	font-style: italic;
+}
+
+h4 {
+	color: #1B1B1B;
+	line-height: 26px;
+	font-size: 26px;
+}
+
+h5 {
+	color: #1B1B1B;
+	line-height: 22px;
+	font-size: 22px;
+	font-style: italic;
+}
+
+h6 {
+	color: #fff;
+	line-height: 31px;
+	font-size: 31px;
+	letter-spacing: -2px;
+}
+
+p {
+	color: #A4A6A6;
+	letter-spacing: 0px;
+	line-height: 20px;
+	word-spacing: 1px;
+	font: normal normal lighter 16px/28px Helvetica Neue, sans-serif;
+	letter-spacing: 0px;
+	word-spacing: 3px;
+}
+
+.section_content div.date span {
+	font: 22px Helvetica, arial, serif;
+	color: #A4A6A6;
+	display: block;
+	float: left;
+	width: 107px;
+	height: 30px;
+	text-align: right;
+	padding-top: 3px;
+	line-height: 20px;
+	font-style: italic;
+}
+
+
+#title_center ul li h4, #title_dx ul li p {
+	font: 200 26px/30px Helvetica, Geneva, sans-serif;
+	letter-spacing: -1px;
+	word-spacing: 0px;
+}
+
+#title_dx p.p_big {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+input, textarea {
+	font: 200 20px/38px Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #9b9b9b;
+	font-weight: lighter;
+}
+/* @end */
+
+/* @group header */
+
+#header {
+	text-align: right;
+	height: 170px;
+	background: url(img/graphic.png) repeat-x 0 0px;
+}
+
+#header ul {
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-top: 38px;
+}
+
+#header ul li{
+    display: block;
+    float: right;
+    width: 100%;
+    margin: 0px;
+}
+
+#header ul li#bigtitle {
+	height: 80px;
+}
+
+#header ul li#subtitle {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+
+
+/* @end */
+
+/* @group title */
+
+#photo {
+	width: 220px;
+	height: 220px;
+	display: block;
+	float: left;
+	background: #fcfeff;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	border: 1px solid #fff;
+	
+	-webkit-box-shadow: 0px 1px 3px #ababab;
+	-moz-box-shadow: 0px 1px 3px #ababab;
+	box-shadow: 0px 1px 3px #ababab;
+	behavior: url(css/PIE.htc);
+}
+
+#photo img {
+    margin: 10px;
+}
+
+#title ul {
+	margin-top: 26px;
+}
+
+
+#title_center ul li, #title_dx ul li {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 30px;
+	margin-top: 7px;
+}
+
+#title_dx ul li {
+	height: 27px;
+	margin-top: 6px;
+	padding-top: 4px;
+}
+
+#title_center {
+	text-align: right;
+}
+
+
+
+/* @end */
+
+/* @group contact */
+
+.contact_sx {
+	margin-top: 20px;
+}
+
+.contact_sx li {
+	width: 294px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+	height: 50px;
+	padding: 1px;
+}
+
+.contact_sx li h4 {
+	display: inline;
+	float: left;
+	height: 40px;
+	width: 50px;
+	text-align: left;
+	margin-right: 30px;
+	line-height: 45px;
+}
+
+#contact li div.border {
+	background-color: #fff;
+	display: block;
+	float: left;
+	padding: 2px;
+}
+
+.contact_sx li input, .contact_dx li textarea {
+	display: inline;
+	float: left;
+	height: 20px;
+	width: 194px;
+	background-color: #ececec;
+	padding: 6px;
+	border: 1px solid #d9dbdd;
+}
+
+.contact_dx li textarea {
+	height: 168px;
+	width: 274px;
+	padding: 10px;
+}
+
+.contact_sx li input:focus, .contact_dx li textarea:focus  {
+	background-color: #e5e5e5;
+}
+
+.contact_sx #invia {
+	height: 35px;
+	width: 211px;
+	background: url(img/graphic.png) no-repeat -14px -180px;
+	border-style: none;
+}
+
+.contact_sx #invia:active {
+	background-position: -14px -220px;
+}
+
+.section_content {
+	padding-top: 10px;
+	position: relative;
+}
+
+.contact_dx li {
+	padding-top: 20px;
+}
+
+
+
+/* @end */
+
+/* @group social */
+
+#social {
+    display: block;
+    float: left;
+    width: 50px;
+	position: absolute;
+	top: 0px;
+	left: 65px;
+	padding-top: 290px;
+}
+
+#social ul {
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+#social ul li {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 31px;
+	background: url(img/graphic.png) -241px -240px;
+}
+
+#social ul li#social_top {
+	background: url(img/graphic.png) -241px 189px;
+	height: 9px;
+}
+
+#social ul li#social_bottom {
+	background: url(img/graphic.png) -241px 61px;
+	height: 20px;
+}
+
+#social ul li img {
+	margin-left: 12px;
+}
+
+/* @group social_button */
+
+#social_button {
+	display: block;
+	float: left;
+	position: absolute;
+	top: -60px;
+	right: -12px;
+	width: 152px;
+	height: 60px;
+	background: url(img/graphic.png) 1px 75px;
+	padding-left: 50px;
+	padding-top: 8px;
+}
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group footer */
+
+#footer {
+    height: 10px;
+	background: #d5ff4c url(img/graphic.png) repeat-x 0 -150px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* @end */
+
+#risposta {
+	width: 580px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	behavior: url(css/PIE.htc);
+	margin-left: 80px;
+	background-color: #faad21;
+	text-align: left;
+	margin-top: 10px;
+	height: 0px;
+}
+
+#risposta p {
+	color: #754f09;
+	font-size: 19px;
+	margin-left: 30px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+#risposta p b {
+	margin-left: -20px;
+	font-size: 30px;
+	line-height: 40px;
+	font-style: italic;
+}
+
+#contact, #social, #social_button {
+    display: none;
+}

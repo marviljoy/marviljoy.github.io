@@ -1,0 +1,1 @@
+<style>.section_content div.date, #header, .contact_sx #invia, #social ul li, #social ul li#social_top, #social ul li#social_bottom, #social_button, #footer{background-image: url(img/colors/celestial_sky.png);}h2,h4{color: #3380AB;}h3{color: #1B445C;}</style><script type="text/javascript">dark='#1B445C';light='#49AFD2';</script>

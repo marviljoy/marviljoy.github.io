@@ -1,0 +1,1 @@
+<style>.section_content div.date, #header, .contact_sx #invia, #social ul li, #social ul li#social_top, #social ul li#social_bottom, #social_button, #footer{background-image: url(img/colors/royal_magenta.png);}h2,h4{color: #be005e;}h3{color: #64002f;}</style><script type="text/javascript">dark='#82003f';light='#ec007a';</script>
