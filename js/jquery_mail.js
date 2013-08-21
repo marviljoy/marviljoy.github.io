@@ -17,7 +17,7 @@
 			valid += '<p>A valid e-mail address'+isr;
 		}
 		if (subject.length<1) {
-			valid += '<p>A valid object'+isr;
+			valid += '<p>A valid subject'+isr;
 		}
 		if (text.length<1) {
 			valid += '<p>A valid text'+isr;
