@@ -26,6 +26,16 @@
                 $( '#social' ).scrollFollow();
             }
         );
+		
+		function sendMail() {
+    var link = "mailto:marvil.joy@gmail.com"
+             + "?cc=" + escape(document.getElementById('email').value)
+             + "&subject=" + escape("My Profile Contact")
+             + "&body=" + escape(document.getElementById('messaggio').value)
+    ;
+
+    window.location.href = link;
+}
     </script>
 
 <!--COLORS ==============================================================-->    
@@ -208,12 +218,12 @@
     </div><div class="clear"></div>
     
     <div class="grid_5 alpha contact_sx">
-    <form id="formail" method="post" action="">
+    <form id="formail" method="post" action="" onsubmit="sendMail(); return false;">
     <ul>
-        <li><h4>Name</h4><div class="border"><input type="text" id="nome" name="nome"  value="" /></div></li>
+        <li><h4>Name</h4><div class="border"><input type="text" id="name" name="name"  value="" /></div></li>
         <li><h4>Email</h4><div class="border"><input type="text" id="email" name="email"  value="" /></div></li>
         <li><h4>Object</h4><div class="border"><input type="text" id="oggetto" name="ogggetto"  value="" /></div></li>
-        <li><h4></h4><input type="submit" id="invia" name="invia" value="" /></li>
+        <li><h4></h4><input type="submit" id="invia" name="invia" value=""  /></li>
     </ul>
     </form>
     </div>
