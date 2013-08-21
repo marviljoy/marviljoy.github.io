@@ -20,7 +20,7 @@
 			valid += '<p>A valid subject'+isr;
 		}
 		if (text.length<1) {
-			valid += '<p>A valid text'+isr;
+			valid += '<p>Message'+isr;
 		}
 	//Se i controlli non vengono superati, appare il messaggio di errore.
 		if (valid!='') {
