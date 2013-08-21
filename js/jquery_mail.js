@@ -39,7 +39,7 @@
 			$("#risposta").css("border","1px solid #c98b18");
 			$("#risposta").html("<p>Sending..</p>");
 			$("#risposta").fadeIn("slow");
-			setTimeout("send('"+datastr+"')",2000);
+			//setTimeout("send('"+datastr+"')",2000);
 		}
 		return false;
 	});
