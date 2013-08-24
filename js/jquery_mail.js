@@ -1,7 +1,7 @@
  $(document).ready(function(){
 	$("#invia").click(function(){
 	
-	//Recuperiamo tutte le variabili
+	
 		var valid = '';
 		var isr = ' is required.</p>';
 		var name = $("#nome").val();
@@ -9,7 +9,7 @@
 		var subject = $("#oggetto").val();
 		var text = $("#messaggio").val();
 		
-	//Eseguiamo una serie di controlli
+	
 		if (name.length<1) {
 			valid += '<p>A valid name'+isr;
 		}
@@ -22,7 +22,7 @@
 		if (text.length<1) {
 			valid += '<p>Message'+isr;
 		}
-	//Se i controlli non vengono superati, appare il messaggio di errore.
+	
 		if (valid!='') {
 			$("#risposta").fadeIn("slow");
 			$("#risposta").html("<p><b>Error:</b></p>"+valid);
@@ -30,7 +30,7 @@
 			$("#risposta").css("height","auto");
 			$("#risposta").css("border","1px solid #c98b18");
 		}
-		//Se i controlli vengono superati, compare un messaggio di invio in corso
+		
 		else {
 			var datastr ='name=' + name + '&mail=' + mail + '&subject=' + subject + '&text=' + text;
 			$("#risposta").css("display", "block");
@@ -44,7 +44,7 @@
 		return false;
 	});
 });
-//Creazione della funzione di invio. Si baserà sul nostro file php "mail.php".
+
 function send(datastr){
 	$.ajax({	
 		type: "POST",
@@ -52,6 +52,7 @@ function send(datastr){
 		data: datastr,
 		cache: false,
 		success: function(html){
+			alert(html);
 		$("#risposta").fadeIn("slow");
 		$("#risposta").css("padding","20px");
 		$("#risposta").css("height","auto");
