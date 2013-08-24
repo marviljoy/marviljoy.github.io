@@ -6,14 +6,12 @@
 	$text = $_POST['text'];
 	$ip = $_SERVER['REMOTE_ADDR'];
 	
-	$date = date("Y-m-d H:i:s");	
+	$date = date('F j, Y, g:i a');	
 
 $to = "marvil.joy@gmail.com";
 
 
-$headers = "MIME-Version: 1.0\r\n";
-$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-$headers .= "From: Marvil Joy Github"; 
+
 
 $message = '<table width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center" style="border:10px solid #c8e5f6"  >
 					<tbody>
@@ -22,7 +20,7 @@ $message = '<table width="600" cellspacing="0" cellpadding="0" border="0" bgcolo
 						<table width="650" cellspacing="0" cellpadding="0" border="0" style="border-bottom:1px solid #cccccc">
 						<tbody>
 							<tr>
-							<td width="245" valign="middle" align="left" style="padding:15px"><img width="128" height="128" alt="Marvil Joy - Github" src=""></td>
+							<td width="245" valign="middle" align="left" style="padding:15px"><img width="128" height="128" alt="Marvil Joy - Github" src="http://marviljoy.github.io/photo/marvil.jpg"></td>
 							<td width="285" valign="middle" align="right" style="font-family:Arial;font-size:14px;color:#555555;padding:30px">
 							<strong>Contact Info</strong>
 							<br>
@@ -56,7 +54,7 @@ $message = '<table width="600" cellspacing="0" cellpadding="0" border="0" bgcolo
 $headers = "MIME-Version: 1.0\r\n"
 			."Content-Type: text/html; charset=iso-8859-1\r\n"
 			."Content-Transfer-Encoding: 8bit\r\n"
-			."From: =?UTF-8?B?". base64_encode($name) ."?= <".$mail.">\r\n"
+			."From: =?UTF-8?B?". base64_encode($name." - Github Page") ."?= <".$mail.">\r\n"
 			."X-Mailer: PHP/". phpversion();
 
 

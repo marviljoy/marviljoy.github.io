@@ -57,7 +57,7 @@ function send(datastr){
 		$("#risposta").css("padding","20px");
 		$("#risposta").css("height","auto");
 		$("#risposta").css("border","1px solid #c98b18");
-		$("#risposta").html(html);
+		$("#risposta").html('<p>Message sent! Thanks!</p>');
 		setTimeout('$("#risposta").fadeOut("slow")',2000);
 	}
 	});
