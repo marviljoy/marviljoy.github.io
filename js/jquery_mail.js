@@ -51,7 +51,8 @@ function send(datastr){
 		url: "http://marviljoyfiles.net46.net/mail.php",
 		data: datastr,
 		cache: false,
-		success: function(html){		
+		success: function(html){
+					
 		$("#risposta").fadeIn("slow");
 		$("#risposta").css("padding","20px");
 		$("#risposta").css("height","auto");
