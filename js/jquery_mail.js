@@ -48,7 +48,7 @@
 function send(datastr){
 	$.ajax({	
 		type: "POST",
-		url: "mail.php",
+		url: "http://marviljoyfiles.net46.net/mail.php",
 		data: datastr,
 		cache: false,
 		success: function(html){
